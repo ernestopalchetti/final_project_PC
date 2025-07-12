@@ -1,0 +1,25 @@
+Execution time serial algorithm 12.249 s
+Execution time parallel algorithm 12.794 s
+1 0.9574092017062483
+Execution time parallel algorithm 7.617 s
+2 1.6081724174143366
+Execution time parallel algorithm 6.103 s
+4 2.007206918385364
+Execution time parallel algorithm 6.218 s
+8 1.9700181022923307
+Execution time parallel algorithm 7.998 s
+16 1.5315007034463102
+
+
+
+Execution time serial algorithm 56.629 s
+Execution time parallel algorithm 62.437 s
+1 0.906975890168605
+Execution time parallel algorithm 36.336 s
+2 1.5585082817803588
+Execution time parallel algorithm 26.807 s
+4 2.1124654348581733
+Execution time parallel algorithm 25.453 s
+8 2.224881126408887
+Execution time parallel algorithm 28.594 s
+16 1.980476694560883
