@@ -1,25 +1,113 @@
-Execution time serial algorithm 12.249 s
-Execution time parallel algorithm 12.794 s
-1 0.9574092017062483
-Execution time parallel algorithm 7.617 s
-2 1.6081724174143366
-Execution time parallel algorithm 6.103 s
-4 2.007206918385364
-Execution time parallel algorithm 6.218 s
-8 1.9700181022923307
-Execution time parallel algorithm 7.998 s
-16 1.5315007034463102
+k=10
+N= 10000
+Execution time serial algorithm 2.125 s
+Execution time parallel algorithm 3.017 s
+Processes:  1, Speedup: 0.70440 
+Execution time parallel algorithm 2.029 s
+Processes:  2, Speedup: 1.04726 
+Execution time parallel algorithm 1.908 s
+Processes:  4, Speedup: 1.11342 
+Execution time parallel algorithm 2.479 s
+Processes:  8, Speedup: 0.85709 
+Execution time parallel algorithm 3.995 s
+Processes: 16, Speedup: 0.53186 
+N= 100000
+Execution time serial algorithm 13.265 s
+Execution time parallel algorithm 14.616 s
+Processes:  1, Speedup: 0.90754 
+Execution time parallel algorithm 9.266 s
+Processes:  2, Speedup: 1.43153 
+Execution time parallel algorithm 7.175 s
+Processes:  4, Speedup: 1.84884 
+Execution time parallel algorithm 7.647 s
+Processes:  8, Speedup: 1.73453 
+Execution time parallel algorithm 8.745 s
+Processes: 16, Speedup: 1.51680 
+N= 1000000
+Execution time serial algorithm 79.359 s
+Execution time parallel algorithm 87.173 s
+Processes:  1, Speedup: 0.91036 
+Execution time parallel algorithm 53.505 s
+Processes:  2, Speedup: 1.48321 
+Execution time parallel algorithm 39.234 s
+Processes:  4, Speedup: 2.02187 
+Execution time parallel algorithm 38.293 s
+Processes:  8, Speedup: 2.07164 
+Execution time parallel algorithm 39.211 s
+Processes: 16, Speedup: 2.02388 
 
+k=20
+N= 10000
+Execution time serial algorithm 2.844 s
+Execution time parallel algorithm 3.385 s
+Processes:  1, Speedup: 0.84010 
+Execution time parallel algorithm 2.468 s
+Processes:  2, Speedup: 1.15221 
+Execution time parallel algorithm 2.167 s
+Processes:  4, Speedup: 1.31224 
+Execution time parallel algorithm 2.669 s
+Processes:  8, Speedup: 1.05950 
+Execution time parallel algorithm 4.226 s
+Processes: 16, Speedup: 0.67283 
+N= 100000
+Execution time serial algorithm 52.161 s
+Execution time parallel algorithm 54.665 s
+Processes:  1, Speedup: 0.95420 
+Execution time parallel algorithm 31.622 s
+Processes:  2, Speedup: 1.64954 
+Execution time parallel algorithm 23.149 s
+Processes:  4, Speedup: 2.25325 
+Execution time parallel algorithm 21.979 s
+Processes:  8, Speedup: 2.37325 
+Execution time parallel algorithm 23.390 s
+Processes: 16, Speedup: 2.23004 
+N= 1000000
+Execution time serial algorithm 616.883 s
+Execution time parallel algorithm 633.401 s
+Processes:  1, Speedup: 0.97390 
+Execution time parallel algorithm 381.796 s
+Processes:  2, Speedup: 1.61574 
+Execution time parallel algorithm 272.572 s
+Processes:  4, Speedup: 2.26319 
+Execution time parallel algorithm 258.436 s
+Processes:  8, Speedup: 2.38699 
+Execution time parallel algorithm 259.222 s
+Processes: 16, Speedup: 2.37975 
 
-
-Execution time serial algorithm 56.629 s
-Execution time parallel algorithm 62.437 s
-1 0.906975890168605
-Execution time parallel algorithm 36.336 s
-2 1.5585082817803588
-Execution time parallel algorithm 26.807 s
-4 2.1124654348581733
-Execution time parallel algorithm 25.453 s
-8 2.224881126408887
-Execution time parallel algorithm 28.594 s
-16 1.980476694560883
+k=40
+N= 10000
+Execution time serial algorithm 8.585 s
+Execution time parallel algorithm 8.923 s
+Processes:  1, Speedup: 0.96216 
+Execution time parallel algorithm 5.815 s
+Processes:  2, Speedup: 1.47628 
+Execution time parallel algorithm 4.454 s
+Processes:  4, Speedup: 1.92731 
+Execution time parallel algorithm 4.810 s
+Processes:  8, Speedup: 1.78475 
+Execution time parallel algorithm 6.417 s
+Processes: 16, Speedup: 1.33792 
+N= 100000
+Execution time serial algorithm 83.167 s
+Execution time parallel algorithm 81.296 s
+Processes:  1, Speedup: 1.02302 
+Execution time parallel algorithm 48.283 s
+Processes:  2, Speedup: 1.72194 
+Execution time parallel algorithm 34.881 s
+Processes:  4, Speedup: 2.38432 
+Execution time parallel algorithm 32.404 s
+Processes:  8, Speedup: 2.56659 
+Execution time parallel algorithm 34.752 s
+Processes: 16, Speedup: 2.39313 
+N= 1000000
+Execution time serial algorithm 803.776 s
+Execution time parallel algorithm 810.185 s
+Processes:  1, Speedup: 0.99209 
+Execution time parallel algorithm 482.180 s
+Processes:  2, Speedup: 1.66696 
+Execution time parallel algorithm 342.824 s
+Processes:  4, Speedup: 2.34458 
+Execution time parallel algorithm 322.836 s
+Processes:  8, Speedup: 2.48961 
+Execution time parallel algorithm 325.800 s
+Processes: 16, Speedup: 2.46708 
