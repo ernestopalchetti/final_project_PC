@@ -21,10 +21,11 @@ from utils import *
 
 def main():
     #Ns=[10000, 100000, 1000000]
-    Ns=[10000,100000,1000000]
+    Ns=[10000]
     ks=[10,20,40]
     D=2
     for k in ks:
+        
         
         speed_N=[]
         for N in Ns:
@@ -36,9 +37,9 @@ def main():
             time_start_s=time.time()
             ass,C=k_means_serial(data, k, N,D)
             time_end_s=time.time()
-            analysis(data, ass, k,C)
+            analysis(data, ass, k,C,1)
             
-            
+        
             speedups=[]
             for rep in range(0,5):
                 
@@ -57,6 +58,7 @@ def main():
                 speedups.append([2**rep , speedup])
             speed_N.append(speedups)
     
+        
         t=np.array([1,2,4,8,16])    
         name='Figures/Speedups_k_'+str(k)+'.png'
         speed_N=np.array(speed_N)

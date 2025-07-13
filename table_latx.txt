@@ -1,0 +1,84 @@
+k=10
+N= 10000
+Execution time serial algorithm 2.125 s
+Processes & Speedup \\  \hline \\
+  1   &  0.70440 \\  \hline \\
+  2   &  1.04726 \\  \hline \\
+  4   &  1.11342 \\  \hline \\
+  8   &  0.85709 \\  \hline \\
+ 16   &  0.53186 \\  \hline \\
+
+N= 100000
+Execution time serial algorithm 13.265 s
+Processes & Speedup \\  \hline \\
+  1   &  0.90754 \\  \hline \\
+  2   &  1.43153 \\  \hline \\
+  4   &  1.84884 \\  \hline \\
+  8   &  1.73453 \\  \hline \\
+ 16   &  1.51680 \\  \hline \\
+
+N= 1000000
+Execution time serial algorithm 79.359 s
+Processes & Speedup \\  \hline \\
+  1   &  0.91036 \\  \hline \\
+  2   &  1.48321 \\  \hline \\
+  4   &  2.02187 \\  \hline \\
+  8   &  2.07164 \\  \hline \\
+ 16   &  2.02388 \\  \hline \\
+
+k=20
+N= 10000
+Execution time serial algorithm 2.844 s
+Processes & Speedup \\  \hline \\
+  1   &  0.84010 \\  \hline \\
+  2   &  1.15221 \\  \hline \\
+  4   &  1.31224 \\  \hline \\
+  8   &  1.05950 \\  \hline \\
+ 16   &  0.67283 \\  \hline \\
+
+N= 100000
+Execution time serial algorithm 52.161 s
+Processes & Speedup \\  \hline \\
+  1   &  0.95420 \\  \hline \\
+  2   &  1.64954 \\  \hline \\
+  4   &  2.25325 \\  \hline \\
+  8   &  2.37325 \\  \hline \\
+ 16   &  2.23004 \\  \hline \\
+
+N= 1000000
+Execution time serial algorithm 616.883 s
+Processes & Speedup \\  \hline \\
+  1   &  0.97390 \\  \hline \\
+  2   &  1.61574 \\  \hline \\
+  4   &  2.26319 \\  \hline \\
+  8   &  2.38699 \\  \hline \\
+ 16   &  2.37975 \\  \hline \\
+
+k=40
+N= 10000
+Execution time serial algorithm 8.585 s
+Processes & Speedup \\  \hline \\
+  1   &  0.96216 \\  \hline \\
+  2   &  1.47628 \\  \hline \\
+  4   &  1.92731 \\  \hline \\
+  8   &  1.78475 \\  \hline \\
+ 16   &  1.33792 \\  \hline \\
+
+N= 100000
+Execution time serial algorithm 83.167 s
+Processes & Speedup \\  \hline \\
+  1   &  1.02302 \\  \hline \\
+  2   &  1.72194 \\  \hline \\
+  4   &  2.38432 \\  \hline \\
+  8   &  2.56659 \\  \hline \\
+ 16   &  2.39313 \\  \hline \\
+
+N= 1000000
+Execution time serial algorithm 803.776 s
+Processes & Speedup \\  \hline \\
+  1   &  0.99209 \\  \hline \\
+  2   &  1.66696 \\  \hline \\
+  4   &  2.34458 \\  \hline \\
+  8   &  2.48961 \\  \hline \\
+ 16   &  2.46708 \\  \hline \\
+
